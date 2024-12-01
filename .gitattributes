@@ -1,0 +1,15 @@
+* text=auto
+# For all text files
+* text=auto
+
+# Set the end of line normalization for specific file types
+*.css text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# Binary files, no normalization
+*.png binary
+*.jpg binary
+*.gif binary
